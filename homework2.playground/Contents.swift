@@ -93,14 +93,11 @@ homework2.AFind(word: "BurakKara")
 var result5 = homework2.calculatingInteriorAngles(number: 3)
 print("Interior Angles = \(result5)")
 
-
 //Wage calculation by day
 var result6 = homework2.wageCalculator(day: 30)
 print("Wage : \(result6)")
 
-
 //Calculates quota overage
 var result7 = homework2.internetPay(quota: 60)
 print("Pay : \(result7)")
-
 
