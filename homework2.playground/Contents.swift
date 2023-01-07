@@ -81,33 +81,26 @@ var result1 = homework2.celsiusToFahrenheit(number: 23)
 print("23 C = \(result1) F")
 
 //Calculates the perimeter of a rectangle
-
 homework2.rectangularPerimeter(short: 14, long: 8)
 
-
 //Factorial calculation
-
 var result3 = homework2.factorialCalculation(number:4)
 print("4! = \(result3)")
 
-//find the number of a in the word
+//Find the number of a in the word
 homework2.AFind(word: "BurakKara")
 
-
 //Calculating interior angles
-
 var result5 = homework2.calculatingInteriorAngles(number: 3)
 print("Interior Angles = \(result5)")
 
 
 //Wage calculation by day
-
 var result6 = homework2.wageCalculator(day: 30)
 print("Wage : \(result6)")
 
 
 //Calculates quota overage
-
 var result7 = homework2.internetPay(quota: 60)
 print("Pay : \(result7)")
 
