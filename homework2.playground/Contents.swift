@@ -3,14 +3,14 @@ import UIKit
 
 class Homework2 {
     
-    //Dereceyi Fahrenhiet'e dönüştürür.
+    
     
     func celsiusToFahrenheit(number:Double)->Double {
         
         var fahrenheit = ((number*1.8)+32)
         return fahrenheit
     }
-    //Dikdörtgen çevresini hesaplar.
+    
     
     func rectangularPerimeter(short:Int,long:Int){
         
@@ -27,7 +27,7 @@ class Homework2 {
         }
         return result
     }
-    //Kelimedeki a harfi sayısını bulur.
+   
     func AFind(word:String){
         
         var result = 0
@@ -39,7 +39,7 @@ class Homework2 {
         }
         print("Found \(result) letters A." )
     }
-    //Kenar sayısına göre iç açılarını hesaplar.
+    
     
     func calculatingInteriorAngles(number:Int) ->Int {
         
@@ -49,7 +49,7 @@ class Homework2 {
         }
         return result
     }
-    //Maas hesaplaması yapar .
+   
     
     func wageCalculator(day:Int)->Int{
         
@@ -87,38 +87,38 @@ class Homework2 {
 
 var homework2=Homework2()
 
-//Verilen dereceyi Fahrenheit'a cevirir.
+//Celcius to fahrenheit
 
 var result1 = homework2.celsiusToFahrenheit(number: 23)
 print("23 C = \(result1) F")
 
-//Dikdörtgen cevresini hesaplar
-//Örnek Değerler : 14 ,8
+//Calculates the perimeter of a rectangle
+
 homework2.rectangularPerimeter(short: 14, long: 8)
 
 
-//Faktçriyeli hesaplar.
+//Factorial calculation
 
 var result3 = homework2.factorialCalculation(number:4)
 print("4! = \(result3)")
 
-//Kelimedeki A harfi sayisini bulur.
+//find the number of a in the word
 homework2.AFind(word: "BurakKara")
 
 
-//Kenar sayısına göre iç açılarını hesaplar.
+//Calculating interior angles
 
 var result5 = homework2.calculatingInteriorAngles(number: 3)
 print("Interior Angles = \(result5)")
 
 
-//Gün sayısına göre maaş hesaplar
+//Wage calculation by day
 
 var result6 = homework2.wageCalculator(day: 30)
 print("Wage : \(result6)")
 
 
-//Kota miktarına göre ücret hesaplar.
+//Calculates quota overage
 
 var result7 = homework2.internetPay(quota: 60)
 print("Pay : \(result7)")
