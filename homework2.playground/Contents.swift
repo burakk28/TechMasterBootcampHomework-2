@@ -3,21 +3,16 @@ import UIKit
 
 class Homework2 {
     
-    
-    
     func celsiusToFahrenheit(number:Double)->Double {
         
         var fahrenheit = ((number*1.8)+32)
         return fahrenheit
     }
-    
-    
     func rectangularPerimeter(short:Int,long:Int){
         
         var perimeter = (2 * (short+long) )
         print("Rectangular Perimeter : \(perimeter)")
     }
-    //Faktöriyel hesaplar.
     func factorialCalculation(number:Int)->Int {
         
         var result = 1
@@ -27,7 +22,6 @@ class Homework2 {
         }
         return result
     }
-   
     func AFind(word:String){
         
         var result = 0
@@ -39,8 +33,6 @@ class Homework2 {
         }
         print("Found \(result) letters A." )
     }
-    
-    
     func calculatingInteriorAngles(number:Int) ->Int {
         
         var result = 1
@@ -49,8 +41,6 @@ class Homework2 {
         }
         return result
     }
-   
-    
     func wageCalculator(day:Int)->Int{
         
         var workingHours = day * 8
@@ -67,8 +57,6 @@ class Homework2 {
         }
         return wage
     }
-    //Kotaya göre ücret hesaplaması yapar .
-    
     func internetPay(quota:Int)->Int {
         
         var pay : Int = 0
