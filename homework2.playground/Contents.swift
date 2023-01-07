@@ -68,7 +68,6 @@ class Homework2 {
         }else {
             pay = quota * 2
         }
-        
         return pay
     }
 }
