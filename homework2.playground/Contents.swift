@@ -1,6 +1,5 @@
 import UIKit
 
-
 class Homework2 {
     
     func celsiusToFahrenheit(number:Double)->Double {
