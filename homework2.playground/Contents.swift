@@ -122,3 +122,5 @@ print("Wage : \(result6)")
 //Örnek Değer : 60
 var result7 = homework2.internetPay(quota: 60)
 print("Pay : \(result7)")
+
+
