@@ -76,7 +76,6 @@ class Homework2 {
 var homework2=Homework2()
 
 //Celcius to fahrenheit
-
 var result1 = homework2.celsiusToFahrenheit(number: 23)
 print("23 C = \(result1) F")
 
